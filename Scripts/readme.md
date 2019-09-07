@@ -3,7 +3,7 @@
 Scripts for feature extraction from audio file, create batches and
 audio synthesis.
 
-##### Flow
+##### Flow for Voice Conversion
 
   1. aho_features.sh
   2. concatenation.m
@@ -26,19 +26,19 @@ frequency.)
  - Concatenate cepstral features of source and target speaker.
  - First it align features of source and target speaker using dtw_E.m
 (Dynamic Time Warping algorithm) and store it to X and Y respectively.
- - Z.mat contains aligned features. (size of Z.mat is 80Xa, a is
-depend on no. files.)
+ - Z.mat contains aligned features. (size of Z.mat is 80Xa, a
+depends on no. of files.)
 
 #####  3. create_batches.m
   - Create batches of 1000X40 from Z.mat.
 
 #####  4. Feature_extraction_testing.m
    - Create batches for testing using cepstral features. (size of
-testing file is bX40, b is depend on length of file.)
+testing file is bX40, b depends on length of file.)
 
 #####  5. testmat2mcc_conversion.m
   - Convert mat files back to mcc and save it with the same name of
 original mcc features.
 
 #####  6. aho_synth.sh
-  - Synthesis audio file from converted mcc and original f0 using ahodecoder.
+  - Synthesis audio file from converted mcc and f0 using ahodecoder.
