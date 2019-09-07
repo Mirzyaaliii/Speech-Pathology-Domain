@@ -27,7 +27,7 @@ frequency.)
  - First it align features of source and target speaker using dtw_E.m
 (Dynamic Time Warping algorithm) and store it to X and Y respectively.
  - Z.mat contains aligned features. (size of Z.mat is 80Xa, a is
-depend on no. files.)
+depend on no. of files.)
 
 #####  3. create_batches.m
   - Create batches of 1000X40 from Z.mat.
