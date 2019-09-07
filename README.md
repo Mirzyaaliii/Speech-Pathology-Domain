@@ -1,2 +1,2 @@
-# voice-conversion
-Generative models for various application of voice conversion 
+# Speech Pathology
+Solving real life problem using Machine Learning Techniques for Speech Pathology Domain 
