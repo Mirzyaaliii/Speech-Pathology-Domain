@@ -7,4 +7,4 @@ For more information refer [this link.](https://blog.google/outreach-initiatives
 
 
 **"To understand and be understood is absolutely unbelievable."**
-                                           **- Dimitri Kanecsky**
+                                           **- Dimitri Kanevsky**
